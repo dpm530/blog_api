@@ -19,6 +19,8 @@ gem 'puma', '~> 3.11'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 gem 'fast_jsonapi'
+gem 'bcrypt', '~> 3.1', '>= 3.1.12'
+gem "rack-cors", :require => 'rack/cors'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
